@@ -10,7 +10,7 @@ pipeline {
      
      post {
        always {
-         archiveArtifacts artifacts: 'Rectangle.jar', fingerprint: true
+         archiveArtifacts artifacts: 'Rectangle.java', fingerprint: true
        }
      }
   }
